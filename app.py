@@ -219,7 +219,7 @@ def render_feedback_screen():
 
 def main():
     st.set_page_config(page_title="Show do Milhão", layout="centered")
-    st.title("💰 Show do Milhão (Simulação) 💰")
+    st.title("Show do Milhão")
 
     if 'indice_pergunta' not in st.session_state:
         initialize_game_state()
@@ -350,4 +350,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
